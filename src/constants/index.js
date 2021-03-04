@@ -1,25 +1,36 @@
+export const ACTIONS = {
+	ADD: 'Add',
+	MODIFY: 'Modify',
+	DELETE: 'Delete',
+};
+
+export const APPLY = {
+	RESPONSE: 'Response',
+	REQUEST: 'Request',
+};
+
 export const ACTION_ENUM = [
 	{
-		label: 'Add',
-		value: 'add',
+		label: ACTIONS.ADD,
+		value: ACTIONS.ADD,
 	},
 	{
-		label: 'Modify',
-		value: 'modify',
+		label: ACTIONS.MODIFY,
+		value: ACTIONS.MODIFY,
 	},
 	{
-		label: 'Delete',
-		value: 'delete',
+		label: ACTIONS.DELETE,
+		value: ACTIONS.DELETE,
 	},
 ];
 
 export const APPLY_ENUM = [
 	{
-		label: 'Request',
-		value: 'request',
+		label: APPLY.REQUEST,
+		value: APPLY.REQUEST,
 	},
 	{
-		label: 'Response',
-		value: 'response',
+		label: APPLY.RESPONSE,
+		value: APPLY.RESPONSE,
 	},
 ];
